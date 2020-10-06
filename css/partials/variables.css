@@ -1,0 +1,20 @@
+
+
+
+html,body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/*CSS Variables*/
+
+:root{
+    --primary-color: #9c0706;
+    --primary-color2: #e8262d;
+    --primary-color3: #ea624c;
+    --title-color:#141313;
+    --text-color:#777777;
+
+}
