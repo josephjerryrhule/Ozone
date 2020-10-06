@@ -7,8 +7,9 @@
 /*Css Global*/
 @import url(./partials/_global.css);
 
+
 header{
-    background: #fff;
+    background: rgb(242, 240, 240);
     height: 100vh;
     width: 100%;
 }
@@ -48,4 +49,47 @@ header{
 .main-heading{
     font-family: var(--Poppins-bold);
     font-size:96px;
+}
+
+.about-btn{
+    border: 1px solid #e8262d;
+    padding: 10px;
+    transition: all .5s;
+    background: transparent;  
+}
+
+.about-btn:hover{
+    transform: scale(1,1);
+    background: var(--primary-color);
+    text-decoration: none;
+    color: #fff;
+    border: 0px var(--primary-color)
+}
+
+body section.featured:after {
+    height: 60px;
+    bottom: -30px;
+}
+
+section.featured.left:before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 100%;
+    left: 0;
+    width: 50%;
+    border-bottom: 1px dashed var(--primary-color);
+}
+
+section.featured:after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    /* bottom: -50px; */
+    /* left: 50%; */
+    left: calc(50% - 2.5px);
+    width: 5px;
+    /* height: 100px; */
+    /* background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%); */
+    background-image: linear-gradient(45deg, var(--primary-color3) 15%, var(--primary-color) 65%);
 }
