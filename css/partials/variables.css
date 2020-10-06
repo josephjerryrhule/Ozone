@@ -16,5 +16,5 @@ html,body{
     --primary-color3: #ea624c;
     --title-color:#141313;
     --text-color:#777777;
-
+    --box-shadow: 0px 2px 4px rgba(57, 56, 61, 0.25);
 }
