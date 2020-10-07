@@ -41,7 +41,7 @@ header {
 }
 
 .header-content {
-    margin-top: 80px !important;
+    margin-top: 30px !important;
     margin-left: 80px;
 }
 
@@ -88,6 +88,7 @@ section.featured.left:before {
     border-bottom: 1px dashed var(--primary-color);
 }
 
+
 section.featured.right:before {
     content: '';
     position: absolute;
@@ -97,6 +98,7 @@ section.featured.right:before {
     width: 50%;
     border-bottom: 1px dashed var(--primary-color);
 }
+
 
 section.featured:after {
     content: '';
