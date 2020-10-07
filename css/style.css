@@ -57,6 +57,7 @@ header {
 #heading {
     margin-left: 3%;
     margin-top: 3%;
+    color: var(--primary-color);
 }
 
 #heading1 {
