@@ -458,7 +458,7 @@
             <div class="row">
                 <div class="col-lg-5 col-md-4 pt-5">
                     <div class="services-img">
-                        <img src="./img/vector 2.png" alt="" class="img-fluid"
+                        <img src="./img/vector 2.png" alt="" class="img-fluid services-image"
                             style="float:right; margin-right:30%; width:30%; margin-top:15%;">
                     </div>
                 </div>
@@ -532,7 +532,7 @@
                     </div>
                     <!-- End of Carousel -->
 
-                     <!--Controls
+                    <!--Controls
                         <div class="controls-top">
                             <a class="btn-floating" href="#services-carousel" data-slide="prev"><i
                                     class="fas fa-chevron-left"
@@ -541,7 +541,7 @@
                                     class="fas fa-chevron-right" style="color:var(--primary-color);"></i></a>
                         </div>
                         -->
-                        <!--/.Controls-->
+                    <!--/.Controls-->
                 </div>
             </div>
         </div>
@@ -558,17 +558,29 @@
 
 
     <script>
-        var slideup={
+        var slideright = {
             distance: '250%',
             origin: 'left',
             opacity: 'null',
             easing: 'ease-in',
             duration: '985',
+            interval: '600',
             reset: 'true'
         };
+        ScrollReveal().reveal('.services-image', slideright);
 
-		ScrollReveal().reveal('.services-image', slideup);
-	</script>
+        var slideleft = {
+            distance: '250%',
+            origin: 'right',
+            opacity: 'null',
+            easing: 'ease-in',
+            delay: '700',
+            duration: '985',
+            interval: '600',
+            reset: 'true'
+        };
+        ScrollReveal().reveal('#services-carousel', slideleft);
+    </script>
 
     <!-- Jquery js file -->
     <script src="./js/jquery.js" charset="utf-8"></script>
