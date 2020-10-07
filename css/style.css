@@ -59,10 +59,12 @@ header {
 }
 
 .about-btn {
-    border: 1px solid #e8262d;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
     padding: 10px;
     transition: all .5s;
     background: transparent;
+    box-shadow: var(--box-shadow);
 }
 
 .about-btn:hover {
@@ -98,7 +100,6 @@ section.featured.right:before {
     width: 50%;
     border-bottom: 1px dashed var(--primary-color);
 }
-
 
 section.featured:after {
     content: '';
