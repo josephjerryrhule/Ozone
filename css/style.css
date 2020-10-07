@@ -75,10 +75,11 @@ header {
 
 .about-btn:hover {
     transform: scale(1,1);
-    background: var(--primary-color);
+    background: var(--primary-color2);
     text-decoration: none;
     color: #fff;
-    border: 0px var(--primary-color);
+    border: 0px var(--primary-color2);
+    box-shadow: var(--box-shadow);
 }
 
 body section.featured:after {
