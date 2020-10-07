@@ -440,12 +440,8 @@
 
     <!-- End of Pricing tables -->
 
-    <!--Dashed Divider -->
-    <section class="hero p-0 featured left1"></section>
-    <!-- End of Dashed Divider -->
-
     <!--Services Area-->
-    <section class="testimonials" id="testimonials">
+    <section class="testimonials featured left" id="testimonials">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-5 col-md-4 pt-5">
@@ -539,11 +535,23 @@
         </div>
     </section>
 
-    <!--Dashed Divider-->
-    <section class="hero p-0 featured left"></section>
-    <!--End of Dashed Divider-->
-
-
+    <section id="contact-us">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="header-content2">
+                     <!-- Step Title -->
+                     <div class="step-title" id="step-title-1">
+                        <h2 class="featured alt">Let's Talk?</h2>
+                        <p>Don't wait until tomorrow. Talk to one of our consultants today and learn how to start leveraging your business.</p>
+                    </div>
+                    <a href="#"><button class="about-btn">Talk to an agent</button></a>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <img src="./img/hero.png" alt="" id="custom-bg" class="img-thumbnail">
+            </div>
+        </div>
+    </section>
 
 
 
@@ -560,18 +568,6 @@
             reset: 'true'
         };
         ScrollReveal().reveal('.services-image', slideright);
-
-        var slideleft = {
-            distance: '250%',
-            origin: 'right',
-            opacity: 'null',
-            easing: 'ease-in',
-            delay: '700',
-            duration: '985',
-            interval: '600',
-            reset: 'true'
-        };
-        ScrollReveal().reveal('#services-carousel', slideleft);
     </script>
 
     <!-- Jquery js file -->

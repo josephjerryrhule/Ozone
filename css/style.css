@@ -45,6 +45,11 @@ header {
     margin-left: 80px;
 }
 
+.header-content2 {
+    margin-top: 30% !important;
+    margin-left: 30%;
+}
+
 .header-content p {
     padding: 5px 30px 0 5px;
 }
@@ -67,6 +72,20 @@ header {
 #heading3 {
     margin-left: 3%;
     color: var(--primary-color);
+}
+
+html.sr .load-hidden {
+    visibility: hidden;
+}
+h2.featured:before {
+    content: '';
+    position: absolute;
+    top: 190px;
+    left: 18;
+    width: 50px;
+    height: 5px;
+    background-image: -webkit-linear-gradient(45deg, var(--primary-color2) 15%, var(--primary-color) 65%);
+    background-image: linear-gradient(45deg, var(--primary-color2) 15%, var(--primary-color) 65%);
 }
 
 .about-btn {
