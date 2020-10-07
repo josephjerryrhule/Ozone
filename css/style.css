@@ -61,7 +61,7 @@ header {
 }
 
 #heading1 {
-    margin-top: 14%;
+    margin-top: 2%;
 }
 
 #heading3 {
@@ -93,7 +93,23 @@ body section.featured::after {
     bottom: -30px;
 }
 
-section.featured.left::before {
+section.featured {
+    position: relative;
+}
+
+section.featured:after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    bottom: -50px;
+    left: 50%;
+    left: calc(50% - 2.5px);
+    width: 5px;
+    height: 100px;
+    background-image: -webkit-linear-gradient(45deg, var(--primary-color2) 15%, var(--primary-color) 65%);
+    background-image: linear-gradient(45deg, var(--primary-color2) 15%, var(--primary-color) 65%);
+}
+section.featured.left:before {
     content: '';
     position: absolute;
     z-index: 2;
@@ -103,43 +119,14 @@ section.featured.left::before {
     border-bottom: 1px dashed var(--primary-color);
 }
 
-section.featured.left1::before {
-    content: '';
-    position: absolute;
-    z-index: 2;
-    top: 380%;
-    left: 0;
-    width: 50%;
-    border-bottom: 1px dashed var(--primary-color);
-}
-
-section.featured.right::before {
+section.featured.right:before {
     content: '';
     position: absolute;
     z-index: 1;
-    top: 200%;
+    top: 100%;
     right: 0;
     width: 50%;
     border-bottom: 1px dashed var(--primary-color);
-}
-
-section.featured.right2::before {
-    content: '';
-    position: absolute;
-    z-index: 1;
-    top: 455%;
-    right: 0;
-    width: 50%;
-    border-bottom: 1px dashed var(--primary-color);
-}
-
-section.featured::after {
-    content: '';
-    position: absolute;
-    z-index: 2;
-    left: calc(50% - 2.5px);
-    width: 5px;
-    background-image: linear-gradient(45deg, var(--primary-color3) 15%, var(--primary-color) 65%);
 }
 
 .cards {
