@@ -7,6 +7,9 @@
 /*Css Global*/
 @import url(./partials/_global.css);
 
+body{
+    background: rgb(242, 240, 240);
+}
 
 header{
     background: rgb(242, 240, 240);
