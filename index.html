@@ -14,6 +14,8 @@
 </head>
 
 <body>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <!--Header Area-->
     <header class="header_area">
         <div class="main-menu">
@@ -71,7 +73,7 @@
             <div class="row">
                 <div class="col-lg-5 col-md-4 pt-5">
                     <div class="services-img">
-                        <img src="./img/vector.png" alt="" class="img-fluid"
+                        <img src="./img/vector.png" alt="" class="img-fluid services-image"
                             style="float:right; margin-right:50%;width:30%;">
                     </div>
                 </div>
@@ -529,6 +531,17 @@
                         </div>
                     </div>
                     <!-- End of Carousel -->
+
+                     <!--Controls
+                        <div class="controls-top">
+                            <a class="btn-floating" href="#services-carousel" data-slide="prev"><i
+                                    class="fas fa-chevron-left"
+                                    style="color:var(--primary-color); margin-left: 40%; margin-top: 5%;"></i></a>
+                            <a class="btn-floating" href="#services-carousel" data-slide="next"><i
+                                    class="fas fa-chevron-right" style="color:var(--primary-color);"></i></a>
+                        </div>
+                        -->
+                        <!--/.Controls-->
                 </div>
             </div>
         </div>
@@ -538,8 +551,28 @@
     <section class="hero p-0 featured right2"></section>
     <!--End of Dashed Divider-->
 
+
+
+
+
+
+
+    <script>
+        var slideup={
+            distance: '250%',
+            origin: 'left',
+            opacity: 'null',
+            easing: 'ease-in',
+            duration: '985',
+            reset: 'true'
+        };
+
+		ScrollReveal().reveal('.services-image', slideup);
+	</script>
+
     <!-- Jquery js file -->
     <script src="./js/jquery.js" charset="utf-8"></script>
+
     <!-- Bootsrap js file -->
     <script src="./js/bootstrap.min.js" charset="utf-8"></script>
     <!-- Font Awesome Js File -->
