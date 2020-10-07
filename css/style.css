@@ -117,8 +117,9 @@ section.featured:after {
 }
 
 .cards {
-    background: transparent;
-    border: none;
+    background: #f8f9fa;
+    box-shadow:var(--box-shadow);
+    border-radius: 3%;
     transition: all .5s;
 }
 
