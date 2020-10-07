@@ -101,7 +101,7 @@ section.featured.right:before {
     content: '';
     position: absolute;
     z-index: 1;
-    top: 260%;
+    top: 200%;
     right: 0;
     width: 50%;
     border-bottom: 1px dashed var(--primary-color);
@@ -134,4 +134,3 @@ section.featured:after {
 .card-title {
     font-size: 20px;
     font-weight: 600;
-}
