@@ -132,6 +132,19 @@ section.featured:after {
     color: whitesmoke;
 }
 
+.cards2 {
+    background: #f8f9fa;
+    box-shadow:var(--box-shadow);
+    border-radius: 3%;
+    transition: all .5s;
+}
+
+.cards2:hover {
+    background: #f8f9fa;
+    border: 1px solid var(--primary-color2);
+    box-shadow: var(--box-shadow);
+    }
+
 .card-title {
     font-size: 20px;
     font-weight: 600;
