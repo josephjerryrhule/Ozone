@@ -84,15 +84,21 @@ section.featured.left:before {
     border-bottom: 1px dashed var(--primary-color);
 }
 
+section.featured.right:before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 190%;
+    right: 0;
+    width: 50%;
+    border-bottom: 1px dashed var(--primary-color);
+}
+
 section.featured:after {
     content: '';
     position: absolute;
     z-index: 2;
-    /* bottom: -50px; */
-    /* left: 50%; */
     left: calc(50% - 2.5px);
     width: 5px;
-    /* height: 100px; */
-    /* background-image: -webkit-linear-gradient(45deg, var(--secondary-color) 15%, var(--primary-color) 65%); */
     background-image: linear-gradient(45deg, var(--primary-color3) 15%, var(--primary-color) 65%);
 }
