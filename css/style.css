@@ -88,7 +88,7 @@ section.featured.right:before {
     content: '';
     position: absolute;
     z-index: 1;
-    top: 190%;
+    top: 205%;
     right: 0;
     width: 50%;
     border-bottom: 1px dashed var(--primary-color);
