@@ -9,7 +9,7 @@
     font:normal bold 50px/72px var(--Poppins-bold);
   }
 
-  p.para, a{
+  p.para,a{
     color:var(--text-color);
     font: normal 500 264px/25px var(--poppins);
   }
@@ -18,4 +18,8 @@
   }
   .card-text{
     text-align: inherit;
+  }
+
+  p.para2{
+    font: normal 500 264px/25px var(--poppins);
   }
