@@ -58,6 +58,10 @@ header {
     margin-top: 3%;
 }
 
+#heading1 {
+    margin-top: 10%;
+}
+
 .about-btn {
     border: 1px solid #f8f9fa;
     border-radius: 5px;
