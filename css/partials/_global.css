@@ -13,3 +13,6 @@
     color:var(--text-color);
     font: normal 500 264px/25px var(--poppins);
   }
+  .card-text{
+    text-align: inherit;
+  }
