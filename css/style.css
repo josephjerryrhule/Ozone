@@ -82,12 +82,12 @@ header {
     box-shadow: var(--box-shadow);
 }
 
-body section.featured:after {
+body section.featured::after {
     height: 60px;
     bottom: -30px;
 }
 
-section.featured.left:before {
+section.featured.left::before {
     content: '';
     position: absolute;
     z-index: 2;
@@ -97,8 +97,18 @@ section.featured.left:before {
     border-bottom: 1px dashed var(--primary-color);
 }
 
+section.featured.left1::before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 380%;
+    left: 0;
+    width: 50%;
+    border-bottom: 1px dashed var(--primary-color);
+}
 
-section.featured.right:before {
+
+section.featured.right::before {
     content: '';
     position: absolute;
     z-index: 1;
@@ -108,7 +118,7 @@ section.featured.right:before {
     border-bottom: 1px dashed var(--primary-color);
 }
 
-section.featured:after {
+section.featured::after {
     content: '';
     position: absolute;
     z-index: 2;
