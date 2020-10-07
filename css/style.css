@@ -66,7 +66,6 @@ header {
 
 #heading3 {
     margin-left: 3%;
-    margin-top: 15%;
     color: var(--primary-color);
 }
 
@@ -151,7 +150,16 @@ section.featured.right:before {
     transition: all .5s;
 }
 
-.cards2:hover {
+.cards3 {
+    background: #f8f9fa;
+    box-shadow:var(--box-shadow);
+    border-radius: 3%;
+    transition: all .5s;
+    margin-top: -5%;
+
+}
+
+.cards2:hover, .cards3:hover {
     background: #f8f9fa;
     border: 1px solid var(--primary-color2);
     box-shadow: var(--box-shadow);
