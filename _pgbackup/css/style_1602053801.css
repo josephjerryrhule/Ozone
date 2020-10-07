@@ -1,34 +1,34 @@
-/* Fonts from fonts.css file */
+/*Fonts from fonts.css file*/
 @import url(./font.css);
 
-/* Css variables */
+/*Css variables*/
 @import url(./partials/variables.css);
 
-/* Css Global */
+/*Css Global*/
 @import url(./partials/_global.css);
 
-body {
+body{
     background: #f8f9fa;
 }
 
-header {
-    background: #f8f9fa;
+header{
+    background:#f8f9fa;
     height: 100vh;
     width: 100%;
 }
 
-.navbar {
+.navbar{
     padding: 30px;
     border-bottom-left-radius: 1%;
     border-bottom-right-radius: 1%;
     box-shadow: var(--box-shadow);
 }
 
-.navbar-brand img {
+.navbar-brand img{
     width: 90px;
 }
 
-.nav-item .nav-link {
+.nav-item .nav-link{
     margin-right: 20px;
     font-size: 15px;
     padding: 3px 3px;
@@ -41,36 +41,36 @@ header {
 }
 
 .header-content {
-    margin-top: 80px !important;
-    margin-left: 80px;
+    margin-top: 150px !important;
+    margin-left: 150px;
 }
 
 .header-content p {
     padding: 5px 30px 0 5px;
 }
 
-.main-heading {
+.main-heading{
     font-family: var(--Poppins-bold);
-    font-size: 96px;
+    font-size:96px;
 }
 
-#heading {
+#heading{
     margin-top: 3%;
 }
 
-.about-btn {
+.about-btn{
     border: 1px solid #e8262d;
     padding: 10px;
     transition: all .5s;
-    background: transparent;
+    background: transparent;  
 }
 
-.about-btn:hover {
+.about-btn:hover{
     transform: scale(1,1);
     background: var(--primary-color);
     text-decoration: none;
     color: #fff;
-    border: 0px var(--primary-color);
+    border: 0px var(--primary-color)
 }
 
 body section.featured:after {
@@ -92,7 +92,7 @@ section.featured.right:before {
     content: '';
     position: absolute;
     z-index: 1;
-    top: 260%;
+    top: 219%;
     right: 0;
     width: 50%;
     border-bottom: 1px dashed var(--primary-color);
@@ -106,22 +106,19 @@ section.featured:after {
     width: 5px;
     background-image: linear-gradient(45deg, var(--primary-color3) 15%, var(--primary-color) 65%);
 }
-
-.cards {
+.cards{
     background: transparent;
     border: none;
     transition: all .5s;
 }
-
-.cards:hover {
+.cards:hover{
     transform: scale(1,1);
     background: var(--primary-color2);
     border: 1px solid var(--primary-color2);
     box-shadow: var(--box-shadow);
     color: whitesmoke;
 }
-
-.card-title {
-    font-size: 20px;
-    font-weight: 600;
+.card-title{
+    font-size:20px;
+    font-weight:500;
 }
