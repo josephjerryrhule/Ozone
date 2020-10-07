@@ -66,7 +66,7 @@ header {
 
 #heading3 {
     margin-left: 3%;
-    margin-top: 20%;
+    margin-top: 15%;
     color: var(--primary-color);
 }
 
@@ -113,12 +113,21 @@ section.featured.left1::before {
     border-bottom: 1px dashed var(--primary-color);
 }
 
-
 section.featured.right::before {
     content: '';
     position: absolute;
     z-index: 1;
     top: 200%;
+    right: 0;
+    width: 50%;
+    border-bottom: 1px dashed var(--primary-color);
+}
+
+section.featured.right2::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 455%;
     right: 0;
     width: 50%;
     border-bottom: 1px dashed var(--primary-color);
