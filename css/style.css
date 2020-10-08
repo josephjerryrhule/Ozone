@@ -9,6 +9,8 @@
 
 body {
     background: #f8f9fa;
+    height: 100%;
+    width: 100%;
 }
 
 header {
@@ -50,6 +52,17 @@ header {
     margin-left: 30%;
 }
 
+.header-content3 {
+    margin-top: 3% !important;
+    margin-left: 15%;
+    color: var(--primary-color3);
+}
+
+.text-title{
+    font-family: var(--Poppins-bold);
+    font-weight: 700;
+}
+
 .header-content p {
     padding: 5px 30px 0 5px;
 }
@@ -77,6 +90,7 @@ header {
 html.sr .load-hidden {
     visibility: hidden;
 }
+
 div.featured:before {
     content: '';
     position: absolute;
@@ -88,6 +102,17 @@ div.featured:before {
     background-image: linear-gradient(45deg, var(--primary-color2) 15%, var(--primary-color) 65%);
 }
 
+div.featured2:before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 18;
+    width: 300px;
+    height: 5px;
+    background-image: -webkit-linear-gradient(45deg, var(--primary-color3) 15%, var(--primary-color3) 65%);
+    background-image: linear-gradient(45deg, var(--primary-color3) 15%, var(--primary-color3) 65%);
+}
+
 .about-btn {
     border: 1px solid #f8f9fa;
     border-radius: 5px;
@@ -97,8 +122,8 @@ div.featured:before {
     box-shadow: var(--box-shadow);
 }
 
-.about-btn:hover{
-    transform: scale(1,1);
+.about-btn:hover {
+    transform: scale(1, 1);
     background: var(--primary-color2);
     text-decoration: none;
     color: #fff;
@@ -127,6 +152,7 @@ section.featured:after {
     background-image: -webkit-linear-gradient(45deg, var(--primary-color2) 15%, var(--primary-color) 65%);
     background-image: linear-gradient(45deg, var(--primary-color2) 15%, var(--primary-color) 65%);
 }
+
 section.featured.left:before {
     content: '';
     position: absolute;
@@ -149,13 +175,13 @@ section.featured.right:before {
 
 .cards {
     background: #f8f9fa;
-    box-shadow:var(--box-shadow);
+    box-shadow: var(--box-shadow);
     border-radius: 3%;
     transition: all .5s;
 }
 
 .cards:hover {
-    transform: scale(1,1);
+    transform: scale(1, 1);
     background: var(--primary-color2);
     border: 1px solid var(--primary-color2);
     box-shadow: var(--box-shadow);
@@ -164,39 +190,40 @@ section.featured.right:before {
 
 .cards2 {
     background: #f8f9fa;
-    box-shadow:var(--box-shadow);
+    box-shadow: var(--box-shadow);
     border-radius: 3%;
     transition: all .5s;
 }
 
 .cards3 {
     background: #f8f9fa;
-    box-shadow:var(--box-shadow);
+    box-shadow: var(--box-shadow);
     border-radius: 3%;
     transition: all .5s;
     margin-top: -5%;
 
 }
 
-.cards2:hover, .cards3:hover {
+.cards2:hover,
+.cards3:hover {
     background: #f8f9fa;
     border: 1px solid var(--primary-color2);
     box-shadow: var(--box-shadow);
-    }
+}
 
 .card-title {
     font-size: 20px;
     font-weight: 600;
 }
 
-footer{
+footer {
     width: 100%;
     display: block;
     background: var(--primary-color);
     height: 22%;
 }
 
-.social a{
+.social a {
     font-size: 2.5em;
     padding: 0.3rem;
 }
@@ -205,4 +232,10 @@ footer{
     background: url(../img/ozonecross.png) no-repeat;
     background-position: center;
     background-size: 6em;
+}
+
+.background2 {
+    background: url(../img/about-hero.png) no-repeat;
+    background-position: center;
+    width: 100%;
 }
