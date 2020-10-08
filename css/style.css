@@ -239,6 +239,11 @@ footer {
     background-position: center;
     width: 100%;
 }
+.background3{
+    background: url(../img/about-bg.png) no-repeat;
+    background-position: center;
+    width: 100%;
+}
 .about-para{
     font-size: 20px;
     margin-left: -2%;
