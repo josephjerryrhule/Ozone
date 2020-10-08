@@ -77,7 +77,7 @@ header {
 html.sr .load-hidden {
     visibility: hidden;
 }
-h2.featured:before {
+div.featured:before {
     content: '';
     position: absolute;
     top: 190px;

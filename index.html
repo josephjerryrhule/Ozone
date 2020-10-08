@@ -277,12 +277,12 @@
     <section class="price-tables">
         <div class="container">
             <div class="row text-center">
-                <div class="col-md-12">
+                <div class="col-md-12" id="step">
                     <h1 id="heading1">Plans and Pricing</h1>
-                    <p class="para">Choose the ideal plan for what you need. We work with affordable prices for all
+                    <p class="para" id="step">Choose the ideal plan for what you need. We work with affordable prices for all
                         types of pocket.</p>
                 </div>
-                <div id="services-carousel" class="carousel slide carousel-multi-item pt-5" data-ride="carousel">
+                <div id="pricing-carousel" class="carousel slide carousel-multi-item pt-5" data-ride="carousel">
                     <!--Slides-->
                     <div class="carousel-inner" role="listbox" style="margin-top:-4%;">
                         <div class="carousel-item active">
@@ -578,9 +578,9 @@
             <div class="col-md-6">
                 <div class="header-content2">
                     <!-- Step Title -->
-                    <div class="step-title" id="step-title-1">
-                        <h2 class="featured alt">Let's Talk?</h2>
-                        <p>Don't wait until tomorrow. Talk to one of our agents today and learn how to start leveraging
+                    <div class="step-title featured alt" id="step-title-1">
+                        <h2 id="step">Let's Talk?</h2>
+                        <p id="step">Don't wait until tomorrow. Talk to one of our agents today and learn how to start leveraging
                             your business.</p>
                     </div>
                     <a href="#"><button class="about-btn">Talk to an agent</button></a>
@@ -630,7 +630,7 @@
             interval: '600',
             reset: 'true'
         };
-        ScrollReveal().reveal('.services-image', slideright);
+        ScrollReveal().reveal('#step', slideright);
     </script>
 
     <!-- Jquery js file -->
