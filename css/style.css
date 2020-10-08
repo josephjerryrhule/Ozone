@@ -251,8 +251,8 @@ footer {
     margin-right: 15%;
     background: var(--primary-color2);
     box-shadow: var(--box-shadow);
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 20px;
     color:#fff;
 }
