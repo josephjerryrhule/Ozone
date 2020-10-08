@@ -93,11 +93,11 @@ h2.featured:before {
     border-radius: 5px;
     padding: 10px;
     transition: all .5s;
-    background: transparent;
+    background: #f8f9fa;
     box-shadow: var(--box-shadow);
 }
 
-.about-btn:hover {
+.about-btn:hover{
     transform: scale(1,1);
     background: var(--primary-color2);
     text-decoration: none;
@@ -187,4 +187,15 @@ section.featured.right:before {
 .card-title {
     font-size: 20px;
     font-weight: 600;
+}
+
+footer{
+    width: 100%;
+    display: block;
+    background: var(--primary-color);
+}
+
+.social a{
+    font-size: 2.5em;
+    padding: 0.3rem;
 }
