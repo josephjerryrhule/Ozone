@@ -53,8 +53,8 @@ header {
 }
 
 .header-content3 {
-    margin-top: 3% !important;
-    margin-left: 15%;
+    margin-top: 6% !important;
+    margin-left: 35%;
     color: var(--primary-color3);
 }
 
@@ -238,4 +238,32 @@ footer {
     background: url(../img/about-hero.png) no-repeat;
     background-position: center;
     width: 100%;
+}
+.about-para{
+    font-size: 20px;
+    margin-left: -2%;
+    margin-top: 10%;
+}
+
+.vision{
+    margin-top: 17%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: var(--primary-color2);
+    box-shadow: var(--box-shadow);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    color:#fff;
+}
+#vision{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.vision-para{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 20px;
+    color: #fff;
+    font-family: var(--poppins);
 }
